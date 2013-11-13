@@ -67,12 +67,12 @@
 	top: 155px;
 	color: #ff9009;
 	font-size: 22px;
-	line-height: 26px;
+	line-height: 45px;
 	height: 80px;
 	overflow: hidden;
+	text-indent:55px;
 	font-style: italic;
-	font-weight: 400;
-	font-style: italic;
+	font-weight:bold;
 }
 .da-slide .da-img{
 	text-align: center;

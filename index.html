@@ -6,28 +6,238 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Kyle O'Brien</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
+ 		<link rel="stylesheet" href="css/reset.css">
+ 		<link rel="stylesheet" href="css/style3.css">
+ 		<link rel="stylesheet" href="css/lightbox.css">
+        <link rel="stylesheet" href="css/mosaic.css">
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/paralax.css">
+       	
+
+        <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'/>
+    	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic' rel='stylesheet' type='text/css'/>
+
+        
+    	<script src="lightbox/js/jquery-1.10.2.min.js"></script>
+    	<script src="lightbox/js/lightbox-2.6.min.js"></script>
+    	<script src="js/prefixfree.min.js"></script>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    </head>
+        
+</head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+		<header>
+			<div class="wrapper">
+				<img src="img/logoname.png"<a href="index.html"></a>
+                <div class="clear"></br>
+                Web Development, Digital Video, Interactive Design</div>
+					<ul>
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="#">About Me</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+		
+			</div><!--.wrapper-->
+		</header>
+		<section class="home_feature"><div id="content">
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+			<div id="da-slider" class="da-slider">
+                <div class="da-slide">
+                <h2>Web Development</h2>
+                <p>HTML, CSS, jQuery, Javascript</p>
+                <a href="#" class="da-link">Read more</a>
+            <div class="da-img">
+            <img src="img/1.png" alt="image01" />
+            </div>
+        </div>
+     
+    <div class="da-slide">
+        <h2>Digital Video</h2>
+        <p>Editing, Motion Graphics, Sound</p>
+        <a href="#" class="da-link">Read more</a>
+        <div class="da-img">
+            <img src="img/2.png" alt="image02" />
+        </div>
+    </div>
+     <div class="da-slide">
+        <h2>Interactive Design</h2>
+        <p>Multimedia, Graphics, Posters</p>
+        <a href="#" class="da-link">Read more</a>
+        <div class="da-img">
+            <img src="img/3.png" alt="image02" />
+        </div>
+    </div>
+     
+    <nav class="da-arrows">
+        <span class="da-arrows-prev"></span>
+        <span class="da-arrows-next"></span>
+    </nav>
+     
+</div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    
+        </section>
+
+        <ul class="featured_services">
+        	<li class="service_1">
+        		<img src="img/globe-256.png"/> <h3>Web</h3>
+        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, enim. Lorem ipsum dolor sit.</p>
+        			<a href="#" class="button_1">Find Out More</a>
+        	</li>
+        	<li class="service_2">
+        		<img src="img/camcoder_pro-256.png"/> <h3>Video</h3>
+        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, enim. Lorem ipsum dolor sit.</p>
+        			<a href="#" class="button_1">Find Out More</a>
+        	</li>
+        	<li class="service_3">
+        		<img src="img/paint_brush-256.png"/><h3>Graphics</h3>
+        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, enim. Lorem ipsum dolor sit.</p>
+        			<a href="#" class="button_1">Find Out More</a>
+        	</li>
+        </ul>
+
+	<section id="four_col">
+        <img src="img/monitor-256.png" id="monitor"/>
+		<h2>Recent Projects</h2>
+			<!--Bar-->
+        <div class="mosaic-block bar">
+            <a href="http://buildinternet.com/project/mosaic" target="_blank" class="mosaic-overlay">
+                <div class="details">
+                    <h4 style="color:#EEEEEE; font-weight:lighter">Mosaic - Sliding Boxes and Captions jQuery Plugin</h4>
+                </div>
+            </a>
+            <div class="mosaic-backdrop"><img src="http://placekitten.com/g/225/150"/></div>
+        </div>
+        
+        <div class="clearfix"></div>
+    </div>
+			      <div class="mosaic-block bar">
+            <a href="http://buildinternet.com/project/mosaic" target="_blank" class="mosaic-overlay">
+                <div class="details">
+                    <h4 style="color:#EEEEEE; font-weight:lighter">Mosaic - Sliding Boxes and Captions jQuery Plugin</h4>
+                </div>
+            </a>
+            <div class="mosaic-backdrop"><img src="http://placekitten.com/g/225/150"/></div>
+        </div>
+        
+        <div class="clearfix"></div>
+    </div>
+			      <div class="mosaic-block bar">
+            <a href="http://buildinternet.com/project/mosaic" target="_blank" class="mosaic-overlay">
+                <div class="details">
+                    <h4 style="color:#EEEEEE; font-weight:lighter">Mosaic - Sliding Boxes and Captions jQuery Plugin</h4>
+                </div>
+            </a>
+            <div class="mosaic-backdrop"><img src="http://placekitten.com/g/225/150"/></div>
+        </div>
+        
+        <div class="clearfix"></div>
+    </div>
+			      <div class="mosaic-block bar">
+            <a href="http://buildinternet.com/project/mosaic" target="_blank" class="mosaic-overlay">
+                <div class="details">
+                    <h4 style="color:#EEEEEE;  font-weight:lighter">Mosaic - Sliding Boxes and Captions jQuery Plugin</h4>
+                </div>
+            </a>
+            <div class="mosaic-backdrop"><img src="http://placekitten.com/g/225/150"/></div>
+        </div>
+        
+        <div class="clearfix"></div>
+    </div>
+	</section>
+
+        <div class="wrapper">
+        	<article class="about_us_blurb">
+        		<img src="img/speech_bubble-256.png" id="bubble"/><h3>About Me</h3>
+        		<img src="images/about_us.png"/>
+        		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, et aspernatur nam dolor facere odio!</p>
+        		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, magnam repellendus autem voluptatem quis accusantium ipsum consequuntur voluptatibus voluptatum ut.</p>
+                <a href="#" class="button_1">Read More</a>
+        	</article>
+
+        	<article class="testimonials">
+        		<h3>Testimonials</h3>
+        		<div class="testimonial_wrapper">
+        			<p class="testimonial_quote">
+        				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, nihil voluptatem delectus fugit culpa impedit?
+        			</p>
+        			<p class="testimonial_name">John Doe, Company</p>
+        		</div>
+        	</article>
+        </div> <!--wrapper-->
+
+        <footer>
+
+        		<section class="wrapper">
+        			<article class="column">
+        				<h4>Lorem Ipsum</h4>
+        				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, labore, pariatur, odit omnis ex enim cum voluptates officiis dolore exercitationem doloremque facere ipsam option. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, nam facere illo temporibus sequi dolorem quam sunt officiis deleniti perspiciatis.</p>
+        			</article>
+        			<article class="column midlist">
+        				<h4>News &amp; Articles</h4>
+        				<ul>
+        					<li><img src="img/right_circular-128.png" width="20"/><a href="#">Lorem ipsum dolor sit amet, consectetur.</a><li>
+        					<li><img src="img/right_circular-128.png" width="20"/><a href="#">Lorem ipsum dolor sit amet, consectetur.</a><li>
+        					<li><img src="img/right_circular-128.png" width="20"/><a href="#">Lorem ipsum dolor sit amet, consectetur.</a><li>
+        				</ul>
+        			</article>
+        			<!--Feedback Widget-->
+        		<div class="column">
+        				<article class="widget_feedback">
+        					<h4>Feedback</h4>
+        					<form>
+        						<input type="text" value="Full Name" name="name">
+        						<input type="text" value="Email Address" name="email">
+        						<textarea name="message">Your Message</textarea>
+        						<input type="submit" value="Send Message" class="button_1">
+        					</form>
+        				</article>
+        		</div>
+        		</section>
+        			<section id="copyright">
+        		<div class="wrapper">
+        			<div class="social">
+        				<a href="#"><img src="img/twitter-512.png" alt="twitter"width="25"/></a>
+        				<a href="#"><img src="img/facebook-512.png" alt="twitter"width="25"/></a>
+        				<a href="#"><img src="img/google_plus-512.png" alt="twitter"width="25"/></a>
+        				<a href="#"><img src="img/linkedin-512.png" alt="twitter"width="25"/></a>
+        			</div>
+        			&copy; Copyright 2013  ||  Kyle O'Brien  ||  All Rights Reserved.
+        		</div>
+        	</section>
+        	</footer>
+
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="js/mosaic.1.0.1.min.js"></script>
+        <script type="text/javascript">  
+            
+            jQuery(function($){
+                $('.bar').mosaic({
+                    animation   :   'slide'
+                });
+            });
+            
+        </script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.cslider.js"></script>
+        <script type="text/javascript">
+            $(function() {
+            
+                $('#da-slider').cslider();
+            
+            });
+        </script>   
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
